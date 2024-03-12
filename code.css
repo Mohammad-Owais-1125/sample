@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h3{
+    color: goldenrod;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.hero {
+    text-align: center;
+    margin: 0 auto;
+    background-color: lightblue;
+    background-image: url("/2.jpg");
+    background-size: cover;
+    height: 250px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero h2 {
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.timer-container span {
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.info {
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: lightblue;
+}
+
+div.color{
+    background-color: lightgoldenrodyellow;
+    height: auto;
+}
+
+/* code.css */
+.cart-icons {
+    
+    display: flex; /* Arrange icons horizontally */
+    justify-content: center; /* Align icons in the center */
+    margin-bottom: 5px; /* Add some space below icons */
+  }
+  
+  .cart-icons a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set icon color (adjust as needed) */
+    font-size: 24px; /* Adjust icon size */
+    margin-right: 10px; /* Add space between icons */
+  }
+
+  .cart-icons a img {
+    width: 200px; /* Adjust to your desired width */
+    height: 300px; /* Adjust to your desired height */
+    
+  }
+  
+
+  nav {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  nav li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between menu items */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+  }
+  
+  nav a:hover {
+    color: #000; /* Change color on hover */
+  }
+  
